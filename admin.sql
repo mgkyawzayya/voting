@@ -1,0 +1,1 @@
+INSERT INTO `users` VALUES (1,'Kyaw Zayya','admin.ucspkku@gmail.com',NULL,'$2y$10$/2y/IbVZSNQzrTCWeff/MejH8kEZj/92qADKlQAmSRntqX8uu/u3i',NULL,'2019-01-12 10:09:50','2019-01-12 10:09:50');
