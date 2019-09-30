@@ -47,7 +47,7 @@
         </div>
       </div>
       <div class="main main-raised">
-          
+
             @if(session('success'))
             <div class="alert alert-success text-center">
             {{ session('success') }}
@@ -78,13 +78,13 @@
                           <!-- Button trigger modal -->
                         <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#exampleModal">
                                 <i class="material-icons">favorite</i>    Vote
-                        </button>    
+                        </button>
                       </div>
                   </div>
                 </div>
+                </div>
               </div>
-            </div>
-      </div>
+          </div>
 
       <!-- Modal -->
       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

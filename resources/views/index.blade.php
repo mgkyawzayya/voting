@@ -49,8 +49,27 @@
   <div class="main main-raised">
       <h1 class="text-center title">Agenda</h1>
       <div class="container">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium temporibus laboriosam sequi quo quae ad maiores quam amet praesentium ratione saepe deserunt, minus eos autem dignissimos obcaecati sunt. Dolorem, iste.</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <img src="{{ asset('/agenda/ag1.jpg') }}" alt="" class="img-raised rounded img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <img src="{{ asset('/agenda/ag2.jpg') }}" alt="" class="img-raised rounded img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <img src="{{ asset('/agenda/ag3.jpg') }}" alt="" class="img-raised rounded img-fluid">
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <img src="{{ asset('/agenda/ag4.jpg') }}" alt="" class="img-raised rounded img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+                <img src="{{ asset('/agenda/ag5.jpg') }}" alt="" class="img-raised rounded img-fluid">
+            </div>
+        </div>
+        <br>
       </div>
-      <hr>
   </div>
 @endsection
