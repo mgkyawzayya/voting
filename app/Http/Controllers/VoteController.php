@@ -85,7 +85,7 @@ class VoteController extends Controller
 
                 return back()->with('success', 'Your Voting is success');
             } else {
-                return back()->with('using', 'Your Key has been using.');
+                return back()->with('using', 'Your Key has been used.');
             }
         } else {
             return back()->with('notfound', 'Your key is not Found');
