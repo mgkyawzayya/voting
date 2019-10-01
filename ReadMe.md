@@ -1,22 +1,22 @@
 ### Online Voting Setup
 
 ```
-git clone https://github.com/mgkyawzayya/voting.git
+$ git clone https://github.com/mgkyawzayya/voting.git
 
-cd voting
+$ cd voting
 
-composer install
+$ composer install
 
-npm install
+$ npm install
 
-npm run dev
+$ npm run dev
 
-cp .env.example .env
+$ cp .env.example .env
 
-php artisan key:generate
+$ php artisan key:generate
 
-php artisan make:migrate --seed
+$ php artisan make:migrate --seed
 
-php artisan serve
+$ php artisan serve
 
 ```
