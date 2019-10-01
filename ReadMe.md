@@ -1,7 +1,7 @@
 ### Online Voting Setup
 
 ```
-git clone https://github.com/voting.git
+git clone https://github.com/mgkyawzayya/voting.git
 
 cd voting
 
