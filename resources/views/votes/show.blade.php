@@ -76,7 +76,7 @@
     <!-- End Navbar -->
     <div class="content">
       <div class="container-fluid">
-        <a href="{{ url('vote/create') }}" class="btn btn-primary btn-round text-right">New</a>
+        <a href="{{ url('vote/create') }}" class="btn btn-primary btn-round text-right">Create Key</a>
         <a href="{{ url('vote/delete') }}" class="btn btn-danger btn-round text-right">Delete</a>
         <a href="{{ url('vote/show') }}" class="btn btn-info btn-round text-right">Show</a>
         <div class="row">
