@@ -40,7 +40,7 @@
             <div class="col-md-8 ml-auto mr-auto">
               <div class="brand text-center">
                 <h1>King & Queen Voting</h1>
-                <h3 class="title text-center">2018 - 19 Fresher Welcome</h3>
+                <h3 class="title text-center">2019 - 20 Fresher Welcome</h3>
               </div>
             </div>
           </div>

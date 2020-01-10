@@ -4,7 +4,7 @@
 <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
         <div class="container">
           <div class="navbar-translate">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/">
               Voting</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="sr-only">Toggle navigation</span>
@@ -40,7 +40,7 @@
             <div class="col-md-8 ml-auto mr-auto">
               <div class="brand text-center">
                 <h1>King & Queen Voting</h1>
-                <h3 class="title text-center">2018 - 19 Fresher Welcome</h3>
+                <h3 class="title text-center">2019 - 20 Fresher Welcome</h3>
               </div>
             </div>
           </div>

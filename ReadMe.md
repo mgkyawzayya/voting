@@ -15,7 +15,7 @@ $ cp .env.example .env
 
 $ php artisan key:generate
 
-$ php artisan make:migrate --seed
+$ php artisan migrate --seed
 
 $ php artisan serve
 
