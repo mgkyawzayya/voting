@@ -119,6 +119,14 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
+                          <label class="bmd-label-floating">Enter Hobby</label>
+                          <input type="text" name="hobby" class="form-control">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
                           <label for="photo">Photo</label>
                           <input type="file" class="form-control-file" name="photo" id="photo">
                         </div>

@@ -17,6 +17,7 @@ class CreateQueensTable extends Migration
             $table->increments('id');
             $table->text('name');
             $table->integer('no');
+            $table->text('hobby');
             $table->integer('vote');
             $table->string('photo');
             $table->timestamps();

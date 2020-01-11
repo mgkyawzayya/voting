@@ -38,6 +38,7 @@ class QueenController extends Controller
         $validatedData = $request->validate([
             'name' => 'required',
             'no' => 'required',
+            'hobby' => 'required',
             'photo' => 'required',
             'photo.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:102400'
             ]);
@@ -51,6 +52,7 @@ class QueenController extends Controller
             $queen = new Queen();
             $queen->name = $request->name;
             $queen->no = $request->no;
+            $queen->hobby = $request->hobby;
             $queen->vote = 0;
             $queen->photo = $name;
             $queen->save();
@@ -72,6 +74,7 @@ class QueenController extends Controller
         $validatedData = $request->validate([
             'name' => 'required',
             'no' => 'required',
+            'hobby' => 'required',
             'vote' => 'required',
             'photo' => 'required'
         ]);
@@ -79,6 +82,7 @@ class QueenController extends Controller
         DB::table('queens')->where('id', $request->id)->update([
             'name' => $request->name,
             'no' => $request->no,
+            'hobby' => $request->hobbby,
             'vote' => $request->vote,
             'photo' => $request->photo
         ]);

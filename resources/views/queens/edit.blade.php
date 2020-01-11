@@ -116,6 +116,14 @@
                         </div>
                       </div>
                     </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <label class="bmd-label-floating">Enter Hobby</label>
+                          <input type="number" name="hobby" value="{{ $queen->hobby }}" class="form-control">
+                        </div>
+                      </div>
+                    </div>
                     <input type="hidden" name="vote" value="{{ $queen->vote }}">
                     <input type="hidden" name="photo" value="{{ $queen->photo }}">
                     <input type="hidden" name="id" value="{{ $queen->id }}">

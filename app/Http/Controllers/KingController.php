@@ -37,6 +37,7 @@ class KingController extends Controller
         $validatedData = $request->validate([
             'name' => 'required',
             'no' => 'required',
+            'hobby' => 'required',
             'photo' => 'required',
             'photo.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:10240'
             ]);
@@ -50,6 +51,7 @@ class KingController extends Controller
             $king = new King();
             $king->name = $request->name;
             $king->no = $request->no;
+            $king->hobby = $request->hobby;
             $king->vote = 0;
             $king->photo = $name;
             $king->save();
@@ -72,12 +74,18 @@ class KingController extends Controller
     {
         $validatedData = $request->validate([
             'name' => 'required',
-            'no' => 'required'
+            'no' => 'required',
+            'hobby' => 'required',
+            'vote' => 'required',
+            'photo' => 'required',
         ]);
 
         DB::table('kings')->where('id', $request->id)->update([
             'name' => $request->name,
-            'no' => $request->no
+            'no' => $request->no,
+            'hobby' => $request->hobby,
+            'vote' => $request->vote,
+            'photo' => $request->photo
         ]);
         
         return back()->withSuccess('Update Successful!');

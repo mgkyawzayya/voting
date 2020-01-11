@@ -17,6 +17,7 @@ class CreateKingsTable extends Migration
             $table->increments('id');
             $table->text('name');
             $table->integer('no');
+            $table->text('hobby');
             $table->string('photo');
             $table->integer('vote');
             $table->timestamps();

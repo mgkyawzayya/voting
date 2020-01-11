@@ -72,7 +72,8 @@
                           </div>
                           <h4 class="card-title text-center"> {{ $king->name }}
                               <br>
-                          <medium class="card-text text-muted">No - {{ $king->no }}</medium>
+                              <medium class="card-text text-muted">No - {{ $king->no }}</medium>
+                              <h4 class="card-title text-center">Hobby - {{ $king->hobby }}</h4>
                           </h4>
 
                           <!-- Button trigger modal -->

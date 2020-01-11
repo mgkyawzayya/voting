@@ -74,7 +74,9 @@
                           <h4 class="card-title text-center"> {{ $queen->name }}
                               <br>
                               <medium class="card-text text-muted">No - {{ $queen->no }}</medium>
+                              <h4 class="card-title text-center">Hobby - {{ $queen->hobby }}</h4>
                           </h4>
+                          
                           <!-- Button trigger modal -->
                         <button class="btn btn-primary btn-round" data-toggle="modal" data-target="#exampleModal">
                                 <i class="material-icons">favorite</i>    Vote
