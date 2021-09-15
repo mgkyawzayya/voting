@@ -24,6 +24,6 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "set-value": "^3.0.1"
+        "set-value": "^4.0.1"
     }
 }
